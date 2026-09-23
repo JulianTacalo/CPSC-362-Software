@@ -2,7 +2,7 @@ import arrr
 from pyscript import web, when
 
 
-@when("click", "#translate-button")
+@when("click", "#photo-button")
 def translate_english(event):
     """
     Translate English text to Pirate speak.
